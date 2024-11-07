@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, sans-serif;
+  text-decoration: none;
+  /* outline: 1px solid blue; */
+}
+body {
+  background-color: rgba(25, 25, 27, 1);
+}
+.container {
+  max-width: 1200px;
+  width: 85%;
+  margin-inline: auto;
+}
+#header {
+  padding-block: 30px 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  gap: 30px;
+}
+nav a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.header input {
+  width: 165px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: rgba(25, 25, 27, 1);
+  border: 2px solid #fff;
+}
+.burger-menu {
+  display: none;
+}
+.burger-menu span {
+  font-size: 35px;
+  color: #fff;
+}
+
+#hero {
+  padding-block: 100px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero-text h1 {
+  max-width: 582px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 74px;
+  color: rgba(255, 255, 255, 1);
+}
+.hero-text p {
+  max-width: 550px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.hero-text button {
+  width: 204px;
+  height: 53px;
+  border-radius: 4px;
+  background-color: rgba(84, 84, 212, 1);
+  font-weight: 700;
+  font-size: clamp(0.813rem, 0.722rem + 0.45vw, 1.063rem);
+  color: rgba(255, 255, 255, 1);
+}
+.sadat {
+  max-width: 655px;
+}
+
+.hero-img {
+  position: relative;
+  max-width: 655px;
+}
+#vector1 {
+  position: absolute;
+  top: 123px;
+  left: -82px;
+}
+#vector2 {
+  position: absolute;
+  right: 50px;
+  top: 70px;
+  bottom: 0px;
+}
+#vector3 {
+  position: absolute;
+  bottom: 40px;
+  left: -31;
+}
+#vector4 {
+  position: absolute;
+  right: 55px;
+  bottom: 80px;
+}
+
+#platform {
+  padding-block: 50px;
+}
+
+.platform {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.platform h1 {
+  max-width: 695px;
+  font-size: clamp(2.5rem, 2.045rem + 2.27vw, 3.75rem);
+  font-weight: 600;
+  line-height: 70px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.platforms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.platforms-block {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}
+.platforms h2 {
+  width: 199px;
+  font-size: clamp(1.125rem, 0.966rem + 0.8vw, 1.563rem);
+  font-weight: 500;
+  line-height: 38.19px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.platforms p {
+  width: 299px;
+  font-size: clamp(0.813rem, 0.699rem + 0.57vw, 1.125rem);
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#portfolio {
+  padding-block: 50px;
+}
+.portfolio {
+  height: 624px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.portfolio h1 {
+  font-size: clamp(2.375rem, 2.148rem + 1.14vw, 3rem);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+.portfolio-img {
+  display: flex;
+  justify-content: space-between;
+  min-height: 417px;
+}
+
+.portfolio-img img {
+  max-width: 300px;
+}
+.portfolio-img img:first-child {
+  align-self: flex-start;
+}
+.portfolio-img img:nth-child(2) {
+  align-self: center;
+}
+.portfolio-img img:last-child {
+  align-self: flex-end;
+}
+
+#contact {
+  padding-block: 50px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.contact-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact h2 {
+  width: 726px;
+  font-size: clamp(2.375rem, 2.148rem + 1.14vw, 3rem);
+  font-weight: 700;
+  line-height: 81.71px;
+  color: #fff;
+}
+.contact button {
+  width: 201px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: rgba(84, 84, 212, 1);
+  font-weight: 700;
+  font-size: clamp(1rem, 0.909rem + 0.45vw, 1.25rem);
+  color: rgba(255, 255, 255, 1);
+}
+.Terms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Terms p {
+  color: rgba(255, 255, 255, 0.7);
+}
